@@ -37,7 +37,7 @@ function setup() {
   windowResized();
   window.metadata=() => {return {
     name: `Solar System #${token_id}`,
-    description: `A randomly generated solar system with ${n} planets: ${planets.map(p => `${p.color.startsWith } ${p.color.toLowerCase()} planet with a radius of ${p.rad}`).join(', ')}.`,
+    description: `A randomly generated solar system with ${n} planets: ${planets.map(p => `a ${p.color.toLowerCase()} planet with a radius of ${p.rad}`).join(', ')}.`,
     image: canvas.toDataURL("image/png"),
     attributes: 
       [{trait_type: 'Number of Planets', value: n}].concat(
