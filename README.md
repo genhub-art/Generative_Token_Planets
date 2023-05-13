@@ -1,4 +1,4 @@
-# Generative Token Template P5JS
+# Generative Token Example P5JS Animated Solar System
 
 rand() - deterministic random with a seed specific to this NFT
 
